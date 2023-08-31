@@ -1,4 +1,4 @@
-with open("prova1.txt", "r") as file: #MUDAR O ARQUIVO DE ENTRADA NAS PRIMEIRAS ASPAS
+with open("ARQUIVO PROVA.txt", "r") as file: #MUDAR O ARQUIVO DE ENTRADA NAS PRIMEIRAS ASPAS
     lines = file.readlines()
     conteudo = '\r'.join(lines)
     clean_content = conteudo.replace('\n', '')
